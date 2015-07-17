@@ -55,11 +55,11 @@ console.log(weakCurrent);
 var you=300;
 var marvin=150;
 var kay=90;
-var average= (you+marvin+kay)/3;
+var average= (you+marvin+kay)/3 + " "+ "Yards";
 console.log(average);
 //On the other hand, because not all of you are competitive. Marvin is curious of how far everyone swam collectively. Using the same values from above, I am going to put them together within an array to equate the total.
 var swamCollectively= [300,150,90];
-var total= swamCollectively[0]+swamCollectively[1]+swamCollectively[2];
+var total= swamCollectively[0]+swamCollectively[1]+swamCollectively[2] + " " +"Yards";
 console.log(total);
 //Now that the competition is over, Explore and Enjoy!
 
