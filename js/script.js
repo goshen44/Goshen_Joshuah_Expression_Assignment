@@ -34,6 +34,21 @@ console.log(maskTight);
 var maskLoose= true;
 console.log(maskLoose);
 //If the mask is loose, then Re-Tighten and then start swimming. Next, you have to decide if the current is too stron or if it is not.
-
-
+//There is a limit on how far you can swim. You can only swim 20 yards south and 40 yards east/west. The total distance that you can swim is south times east times west.
+var swimSouth= 20;
+var swimEast=40;
+var swimWest=40;
+var distance=swimSouth*swimEast*swimWest + " " + "Yards";
+console.log(distance);
+//If the current takes you further than that, you need a life vest.
+var strongCurrent=true;
+console.log(strongCurrent);
+//You are with three of your friends and two of them swim outside of the guided area. You need three vests just in case, but you are the strongest swimmer by far. b represents how many vests you have and c represents how many you need.
+var b=0;
+var c=b+3;
+console.log(c);
+//Now that you swam back and have all three vests, secure yours around your neck and give the other two to your friends. Now that everyone has a vest, blow them up. And begin you free swim.
+var weakCurrent=true;
+console.log(weakCurrent);
+//For the weak current swimmers, you can now start your free swim.
 
