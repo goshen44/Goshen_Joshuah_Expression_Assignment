@@ -51,4 +51,15 @@ console.log(c);
 var weakCurrent=true;
 console.log(weakCurrent);
 //For the weak current swimmers, you can now start your free swim.
+//While swimming, you and your friends swim different distances. You swim 300 yards, your other friend Marvin swims 150 yards and your other friend Kay swims 90 yards. The average swim distance is based on the sum of all yards swam divided by how many of you there are.
+var you=300;
+var marvin=150;
+var kay=90;
+var average= (you+marvin+kay)/3;
+console.log(average);
+//On the other hand, because not all of you are competitive. Marvin is curious of how far everyone swam collectively. Using the same values from above, I am going to put them together within an array to equate the total.
+var swamCollectively= [300,150,90];
+var total= swamCollectively[0]+swamCollectively[1]+swamCollectively[2];
+console.log(total);
+//Now that the competition is over, Explore and Enjoy!
 
